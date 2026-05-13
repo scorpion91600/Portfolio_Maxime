@@ -117,13 +117,14 @@ let htmlCompetences = '';
 
     data.competences.forEach(function (competence) {
       htmlCompetences +=
-        '<div class="competence-card">' +
-        '<h3>' + competence.titre + '</h3>' +
-        '<p>' + competence.description + '</p>' +
-        '<div class="tags">' +
-        genererTags(competence.tags) +
-        '</div>' +
-        '</div>';
+        `<div class="competence-card">
+    <h3>${competence.titre}</h3>
+    <p>${competence.description}</p>
+    <div class="tags">
+        ${genererTags(competence.tags)}
+    </div>
+</div>`;
+        
       });
 
     sectionCompetences.innerHTML = htmlCompetences;
