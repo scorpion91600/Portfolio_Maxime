@@ -46,22 +46,23 @@ fetch('data.json')
     function genererTags(tags) {
       let html = '';
       tags.forEach(function (tag) {
-        html += '<span class="tag">' + tag + '</span>';
+        html += `<span class="tag">${tag}</span>`;
       });
       return html;
+     
+      
     }
-
+ console.log(genererTags(["test", "hulya"]));
 
     // Génère les <li><a> à partir du tableau data.nav
     // Exemple : genererLiens(data.nav)
     function genererLiens(liens) {
       let html = '';
       liens.forEach(function (lien) {
-        html += '<li><a href="' + lien.href + '">' + lien.label + ' ↗</a></li>';
+        html += `<li><a href="${lien.href}"> ${lien.label} ↗</a></li>`;
       });
       return html;
     }
-
 
     // --------------------------------------------------
     //  NAV
