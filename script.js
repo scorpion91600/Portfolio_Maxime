@@ -112,7 +112,20 @@ fetch('data.json')
     // </div>
     //
     // → sectionCompetences.insertAdjacentHTML('beforeend', carte)
+let htmlCompetences = '';
 
+    data.competences.forEach(function (competence) {
+      htmlCompetences +=
+        '<div class="competence-card">' +
+        '<h3>' + competence.titre + '</h3>' +
+        '<p>' + competence.description + '</p>' +
+        '<div class="tags">' +
+        genererTags(competence.tags) +
+        '</div>' +
+        '</div>';
+      });
+
+    sectionCompetences.innerHTML = htmlCompetences;
 
     // --------------------------------------------------
     //  PROJETS
