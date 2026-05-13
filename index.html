@@ -1,154 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <!-- ===================== NAV ===================== -->
+    <!-- Contenu peuplé par script.js -->
+    <nav class="navbar">
+      <a href="#" class="logo"></a>
+      <ul class="nav-links"></ul>
+      <a class="btn-nav"></a>
+    </nav>
 
-<body>
-  <nav class="navbar">
-    <a class="logo" href="#">LOGO</a>
-    <ul class="nav-links">
-      <li><a href="#competences">MES COMPÉTENCES ↗</a></li>
-      <li><a href="#projets">MES PROJETS ↗</a></li>
-      <li><a href="#contact">MON PARCOURS ↗</a></li>
-      <a class="btn-nav" href="#contact">CONTACTEZ MOI ↗</a>
-    </ul>
-  </nav>
+    <!-- ===================== HERO ===================== -->
+    <!-- Contenu peuplé par script.js -->
+    <header id="hero">
+      <h1></h1>
+      <p></p>
+    </header>
 
+    <main>
 
-  <header id="hero">
-    <h1>Je donne <em>vie</em><br>  à vos idées</h1>
-    
-    <p>Je travail avec vous pour construire <br>   vos projet numériques</p>
+      <!-- ===================== COMPÉTENCES ===================== -->
+      <!-- Cartes peuplées par script.js -->
+      <section id="competences" class="competences"></section>
 
-  
-  </header>
+      <!-- ===================== PROJETS ===================== -->
+      <!-- Cartes peuplées par script.js -->
+      <section id="projets" class="projets">
+        <h2>Mes projets</h2>
+      </section>
 
+      <!-- ===================== PARCOURS ===================== -->
+      <!-- Items peuplés par script.js -->
+      <section id="parcours" class="parcours">
+        <h2>Mon parcours</h2>
+        <ul class="parcours-liste"></ul>
+      </section>
 
-  <section id="competences" class="competences">
-    <div class="competence-card">
-      <h3>UI/UX design</h3>
-      <p>Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
-      <div class="tags">
-        <span class="tag">UI/UX design</span>
-        <span class="tag">Identité graphique</span>
-        <span class="tag">prototypage</span>
-        <span class="tag">design interactif</span>
-      </div>
-    </div>
+    </main>
 
-    <div class="competence-card">
-      <h3>Intégrateur front end</h3>
-      <p>Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
-      <div class="tags">
-        <span class="tag">Javascript</span>
-        <span class="tag">HTML/CSS</span>
-        <span class="tag">Python</span>
-        <span class="tag">Ruby</span>
-      </div>
-    </div>
-  </section>
+    <!-- ===================== FOOTER ===================== -->
+    <!-- Contenu peuplé par script.js (même données que nav) -->
+    <footer class="navbar">
+      <span class="logo"></span>
+      <ul class="nav-links"></ul>
+      <a class="btn-nav"></a>
+    </footer>
 
+    <!-- script.js charge data.json et peuple toute la page -->
+    <script src="script.js"></script>
 
-  <section id="projets" class="projets">
-    <h2>TITRE H2 PROJECTS</h2>
-
-    <article class="projet-card">
-      <div class="projet-content">
-        <div class="projet-top">
-          <h3>NOM PROJECT</h3>
-          <div class="tags">
-            <span class="tag">Web design</span>
-            <span class="tag">Development</span>
-          </div>
-          <div class="projet-bottom">
-            <p>Lorem ipsum...</p>
-            <a class="btn-projet" href="#">VOIR LE PROJET ↗</a>
-          </div>
-        </div>
-      </div>
-      <div class="projet-image">
-        <img src="assets/project-img.jpeg" alt="sjifzuh">
-      </div>
-
-    </article>
-
-
-
-    <article class="projet-card reverse">
-      <div class="projet-image">
-        <img src="assets/project-img.jpeg" alt="sjifzuh">
-      </div>
-      <div class="projet-content">
-        <div class="projet-top">
-          <h3>NOM PROJECT</h3>
-          <div class="tags">
-            <span class="tag">Web design</span>
-            <span class="tag">Development</span>
-          </div>
-          <div class="projet-bottom">
-            <p>Lorem ipsum...</p>
-            <a class="btn-projet" href="#">VOIR LE PROJET ↗</a>
-          </div>
-
-        </div>
-    </article>
-
-    <article class="projet-card">
-      <div class="projet-content">
-        <div class="projet-top">
-          <h3>NOM PROJECT</h3>
-          <div class="tags">
-            <span class="tag">Web design</span>
-            <span class="tag">Development</span>
-          </div>
-          <div class="projet-bottom">
-            <p>Lorem ipsum...</p>
-            <a class="btn-projet" href="#">VOIR LE PROJET ↗</a>
-          </div>
-        </div>
-      </div>
-      <div class="projet-image">
-        <img src="assets/project-img.jpeg" alt="sjifzuh">
-      </div>
-
-    </article>
-  </section>
-
-  <section class="parcours" id="parcours">
-    <h2>Mon parcours</h2>
-    <ul class="parcours-liste">
-      <li class="parcours-item">
-        <p class="parcours-titre">2022 - intitulé diplome / poste</p>
-        <p class="parcours-lieu "> ENTREPRISES /ÉCOLE</p>
-      </li>
-      <li class="parcours-item">
-        <p class="parcours-titre">2022 - intitulé diplome / poste</p>
-        <p class="parcours-lieu "> ENTREPRISES /ÉCOLE</p>
-      </li>
-      <li class="parcours-item">
-        <p class="parcours-titre">2022 - intitulé diplome / poste</p>
-        <p class="parcours-lieu "> ENTREPRISES /ÉCOLE</p>
-      </li>
-    </ul>
-    </section>
-  <footer class="navbar">
-    <span class="logo">LOGO</span>
-    <ul class="nav-links">
-      <li><a href="">MES COMPÉTENCES ↗</a></li>
-      <li><a href="">MES PROJETS ↗</a></li>
-      <li><a href="">MON PARCOURS ↗</a></li>
-    </ul>
-    <a href="" class="btn-nav">CONTACTEZ MOI ↗</a>
-  </footer>
-</body>
-
+  </body>
 </html>
