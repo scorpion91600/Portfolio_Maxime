@@ -163,21 +163,21 @@ let htmlCompetences = '';
       const classeCard = estReverse ? 'projet-card reverse' : 'projet-card';
 
       const imageHtml =
-        '<div class="projet-image">' +
-          '<img src="' + projet.image + '" alt="' + projet.titre + '">' +
-        '</div>';
+        `<div class="projet-image"> 
+          <img src="  ${projet.image}  " alt="+ ${projet.titre}">
+        </div>`;
 
       const contenuHtml =
-        '<div class="projet-content">' +
-          '<div class="projet-top">' +
-            '<h3>' + projet.titre + '</h3>' +
-            '<div class="tags">' + genererTags(projet.tags) + '</div>' +
-            '<div class="projet-bottom">' +
-              '<p>' + projet.description + '</p>' +
-              '<a class="btn-projet" href="' + projet.lien + '">VOIR LE PROJET ↗</a>' +
-            '</div>' +
-          '</div>' +
-        '</div>';
+        `<div class="projet-content">
+          <div class="projet-top">
+            <h3>  ${projet.titre}  </h3> 
+            <div class="tags">${genererTags(projet.tags)}</div>
+            <div class="projet-bottom">
+              <p>${projet.description}</p>
+              <a class="btn-projet" href="${projet.lien} ">VOIR LE PROJET ↗</a>
+            </div>
+          </div>
+        </div>`;
 
       if (estReverse) {
         htmlProjets +=
@@ -213,13 +213,13 @@ let htmlCompetences = '';
 
     data.parcours.forEach(function(etape) {
       htmlParcours +=
-        '<li class="parcours-item">' +
-          '<span class="parcours-annee">' + etape.annee + '</span>' +
-          '<div class="parcours-info">' +
-            '<h3>' + etape.titre + '</h3>' +
-            '<p>'  + etape.lieu  + '</p>' +
-          '</div>' +
-        '</li>';
+        `<li class="parcours-item"> 
+          <span class="parcours-annee"> ${etape.annee}</span>
+          <div class="parcours-info"> 
+            <h3> ${etape.titre}</h3>
+            <p>${etape.lieu}</p>
+          </div>
+        </li>`;
     });
 
     if (listeParcours) listeParcours.innerHTML = htmlParcours;
