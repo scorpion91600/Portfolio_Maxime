@@ -1,5 +1,5 @@
 # LaToile — Exercice JS : fetch + DOM
-
+🔗 **[Voir le site en ligne](https://scorpion91600.github.io/Portfolio_Maxime)**
 Le HTML et le CSS sont déjà en place. La page est vide.  
 Votre mission : compléter `script.js` pour que tout le contenu de `data.json` peuple la page.
 
