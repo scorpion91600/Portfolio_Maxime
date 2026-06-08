@@ -174,6 +174,7 @@ let htmlCompetences = '';
             <div class="tags">${genererTags(projet.tags)}</div>
             <div class="projet-bottom">
               <p>${projet.description}</p>
+              <p>${projet.Partenaire}</p>
               <a class="btn-projet" href="${projet.lien} ">VOIR LE PROJET ↗</a>
             </div>
           </div>

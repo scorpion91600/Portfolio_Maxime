@@ -34,32 +34,34 @@
 
   "projets": [
     {
-      "titre":       "Album musique",
+      "titre":       "Projet Figma",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-      "tags":        ["Web design", "Development"],
-      "image":       "assets/project-img.jpeg",
-      "lien":        "#"
+      "tags":        ["mobile design", "Maquette"],
+      "image":       "assets/figma_maquette.png",
+      "lien":        "https://www.figma.com/proto/Mg5Z5kotfZV9LUGKjhipZh/La-Toile-P2-UX-UI-Template--copie---copie-?node-id=5900-18706&t=ea63VIBiFpAp1RH5-1",
+      "Partenaire": ["Hulya, Abira"]
     },
     {
-      "titre":       "Sneakershop",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-      "tags":        ["Web design", "Development"],
-      "image":       "assets/project-img.jpeg",
-      "lien":        "#"
+      "titre":       "Projet Discographie Maes",
+      "description": "Site web dédié à la discographie du rappeur français Maes, conçu avec une esthétique glassmorphisme et une attention particulière portée à la lisibilité du texte. Le projet explore les fondamentaux du développement web front-end (HTML, CSS, JavaScript) à travers un cas concret et créatif.",
+      "tags":        ["Glassmorphisme", "Html", "CSS", "Development", "Javascript"],
+      "image":       "https://private-user-images.githubusercontent.com/64793947/604732726-71a6c1ef-f7e7-4584-a8c8-3619ae2a4784.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA5NTk1MzYsIm5iZiI6MTc4MDk1OTIzNiwicGF0aCI6Ii82NDc5Mzk0Ny82MDQ3MzI3MjYtNzFhNmMxZWYtZjdlNy00NTg0LWE4YzgtMzYxOWFlMmE0Nzg0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA4VDIyNTM1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiNjA5MDAyNmYwOGZjMjIwNzQxNTAxNDY0MDQ1MTUyYzQwZjE1ZjA5ZTA0ZDNiM2EwZmY0ZGJmN2Y5YmFhMTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.c7GccXvU3QAVHOCnHXzuJGJtQUC4UL0YohdqpTjxKuc",
+      "lien":        "https://scorpion91600.github.io/maes_discovery/index.html"
     },
     {
-      "titre":       "Site vitrine",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
-      "tags":        ["Web design", "Development"],
-      "image":       "assets/project-img.jpeg",
-      "lien":        "#"
+      "titre":       "Verdict",
+      "description": "Verdict est un jeu de débat web en HTML/CSS/JavaScript vanilla. L'IA assigne un sujet aléatoire et un camp (POUR ou CONTRE) à chaque joueur, qui dispose de 90 secondes pour rédiger sa plaidoirie. Les réponses sont scorées par l'API Claude et versées dans un classement communautaire.",
+      "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend"],
+      "image":       "https://private-user-images.githubusercontent.com/64793947/604438061-05b36998-647e-4634-a87f-36d37a0b1380.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA5NTg4NzgsIm5iZiI6MTc4MDk1ODU3OCwicGF0aCI6Ii82NDc5Mzk0Ny82MDQ0MzgwNjEtMDViMzY5OTgtNjQ3ZS00NjM0LWE4N2YtMzZkMzdhMGIxMzgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA4VDIyNDI1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFiOTYyZGYxODNkMGU3OGFkZTE1MzVlNTQ0NTkxZDQ0OWRmNzk5NjUzYzZkYWZlNTkxNjUyZjA0ZmJmNDdmNGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.1vD4oR6VJ-0mJ2FcuxIQDUhlu7ttU457W2z_7qMvmd0",
+      "lien":        "https://scorpion91600.github.io/jeu_question_hasard"
     }
   ],
 
   "parcours": [
-    { "annee": "2024", "titre": "Bachelor Développement Web",  "lieu": "LaToile / École"       },
-    { "annee": "2023", "titre": "Intégrateur front end",       "lieu": "Agence Studio / Entreprise" },
-    { "annee": "2022", "titre": "BTS Design Graphique",        "lieu": "Lycée Technique / École"    },
-    { "annee": "2021", "titre": "Stage UX Design",             "lieu": "StartupXYZ / Entreprise"    }
+    { "annee": "2026", "titre": "Certificat: Développement Web",  "lieu": "LaToile / EM Lyon"},
+    { "annee": "2026", "titre": "Certificat:  Améliorez votre productivité grâce à l'IA générative avec Microsoft et LinkedIn ",  "lieu": "E-learning"},
+    { "annee": "2026", "titre": "Stagiaire en technologie de l'information (IT)",       "lieu": "Cabinet Linklaters" },
+    { "annee": "2023-2024", "titre": "Animateur numerique (formation à Windows et Pack Office",   "lieu": "Asphalte"  },
+        { "annee": "2022", "titre": "Formation developper web et web mobile",        "lieu": "Doranco"    }
   ]
 }

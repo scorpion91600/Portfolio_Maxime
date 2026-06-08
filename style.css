@@ -87,6 +87,7 @@ nav a{
   text-decoration: none;
 }
 
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -267,8 +268,8 @@ main {
 }
 
 .projet-image img {
-  width: 100%;
-  height: 100%;
+  width: 600px;
+  height: 400px;
   object-fit: cover;
   border-radius: var(--radius-image);
   display: block;
@@ -455,3 +456,4 @@ footer a{
     height: 180px;
   }
 }
+ 
