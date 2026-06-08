@@ -53,7 +53,7 @@
       "description": "Verdict est un jeu de débat web en HTML/CSS/JavaScript vanilla. L'IA assigne un sujet aléatoire et un camp (POUR ou CONTRE) à chaque joueur, qui dispose de 90 secondes pour rédiger sa plaidoirie. Les réponses sont scorées par l'API Claude et versées dans un classement communautaire.",
       "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend"],
       "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513681337914228929/verdict.png?ex=6a289d19&is=6a274b99&hm=e0514f7f21fe5479b88cced4fbb5bc72e1662789ade45df1e1e7faf8076eb02d&=&format=webp&quality=lossless&width=671&height=563",
-      "lien":        "scorpion91600.github.io/Verdict"
+      "lien":        "https://scorpion91600.github.io/Verdict"
     }
   ],
 
