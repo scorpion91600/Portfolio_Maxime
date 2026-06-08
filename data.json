@@ -45,15 +45,15 @@
       "titre":       "Projet Discographie Maes",
       "description": "Site web dédié à la discographie du rappeur français Maes, conçu avec une esthétique glassmorphisme et une attention particulière portée à la lisibilité du texte. Le projet explore les fondamentaux du développement web front-end (HTML, CSS, JavaScript) à travers un cas concret et créatif.",
       "tags":        ["Glassmorphisme", "Html", "CSS", "Development", "Javascript"],
-      "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513681337478025377/maes.png?ex=6a289d19&is=6a274b99&hm=8e6d775f2e0836f3f0cb4778cbd1e77a2bbd2e54a6d88d2b124b5809734d86ff&=&format=webp&quality=lossless&width=369&height=563",
-      "lien":        "https://scorpion91600.github.io/maes_discovery/index.html"
+      "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513681337478025377/maes.png?ex=6a289d19&is=6a274b99&hm=8e6d775f2e0836f3f0cb4778cbd1e77a2bbd2e54a6d88d2b124b5809734d86ff&=&format=webp&quality=lossless&width=369&height=400",
+      "lien":        "https://scorpion91600.github.io/maes_discovery"
     },
     {
       "titre":       "Verdict",
       "description": "Verdict est un jeu de débat web en HTML/CSS/JavaScript vanilla. L'IA assigne un sujet aléatoire et un camp (POUR ou CONTRE) à chaque joueur, qui dispose de 90 secondes pour rédiger sa plaidoirie. Les réponses sont scorées par l'API Claude et versées dans un classement communautaire.",
       "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend"],
       "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513681337914228929/verdict.png?ex=6a289d19&is=6a274b99&hm=e0514f7f21fe5479b88cced4fbb5bc72e1662789ade45df1e1e7faf8076eb02d&=&format=webp&quality=lossless&width=671&height=563",
-      "lien":        "https://scorpion91600.github.io/jeu_question_hasard"
+      "lien":        "scorpion91600.github.io/Verdict"
     }
   ],
 
