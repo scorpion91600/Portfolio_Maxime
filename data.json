@@ -37,7 +37,7 @@
       "titre":       "Projet Figma",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
       "tags":        ["mobile design", "Maquette"],
-      "image":       "assets/figma_maquette.png",
+      "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513683240353927278/figma_maquette.png?ex=6a289edf&is=6a274d5f&hm=7c0592c3868c4ac43b9f757503a1d34ff257d3adad2bd6c6b3bcefb667570b12&=&format=webp&quality=lossless&width=1104&height=672",
       "lien":        "https://www.figma.com/proto/Mg5Z5kotfZV9LUGKjhipZh/La-Toile-P2-UX-UI-Template--copie---copie-?node-id=5900-18706&t=ea63VIBiFpAp1RH5-1",
       "Partenaire": ["Hulya, Abira"]
     },
