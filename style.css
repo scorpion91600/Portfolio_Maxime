@@ -280,7 +280,7 @@ main {
 
 .projet-image img {
   width: 100%;
-  height: auto;              
+  height: 100%;              
   object-fit: contain;
   border-radius: var(--radius-image);
   display: block;
