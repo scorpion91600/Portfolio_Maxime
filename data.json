@@ -23,7 +23,7 @@
     {
       "titre": "UI/UX design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-      "tags": ["UI/UX design", "Identité graphique", "Prototypage", "Design interactif"]
+      "tags": ["UI/UX design", "Identité graphique", "Prototypage", "Design interactif","UX Patterns","Collaboration"]
     },
     {
       "titre": "Intégrateur front end",
@@ -36,7 +36,7 @@
     {
       "titre":       "Wevent",
       "description": "Application fluide pour créer un évènement “Pop-up” pour un lancement de produit (marque de luxe)",
-      "tags":        ["mobile design", "Maquette"],
+      "tags":        ["Mobile Design", "UI-UX", "Librairie de composants", "Prototyping", "UX Patterns","Collaboration"],
       "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513683240353927278/figma_maquette.png?ex=6a289edf&is=6a274d5f&hm=7c0592c3868c4ac43b9f757503a1d34ff257d3adad2bd6c6b3bcefb667570b12&=&format=webp&quality=lossless&width=1104&height=672",
       "lien":        "https://www.figma.com/proto/Mg5Z5kotfZV9LUGKjhipZh/La-Toile-P2-UX-UI-Template--copie---copie-?node-id=5900-18706&t=ea63VIBiFpAp1RH5-1",
       "Partenaire": ["Hulya, Abira"]
@@ -44,14 +44,14 @@
     {
       "titre":       "Projet Discographie Maes",
       "description": "Site web dédié à la discographie du rappeur français Maes, conçu avec une esthétique glassmorphisme et une attention particulière portée à la lisibilité du texte. Le projet explore les fondamentaux du développement web front-end (HTML, CSS, JavaScript) à travers un cas concret et créatif.",
-      "tags":        ["Glassmorphisme", "Html", "CSS", "Development", "Javascript"],
+      "tags":        ["Glassmorphisme", "Html", "CSS", "Development", "Javascript", "Positionnement des éléments HTML"],
       "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513681337478025377/maes.png?ex=6a289d19&is=6a274b99&hm=8e6d775f2e0836f3f0cb4778cbd1e77a2bbd2e54a6d88d2b124b5809734d86ff&=&format=webp&quality=lossless&width=369&height=400",
       "lien":        "https://scorpion91600.github.io/maes_discovery"
     },
     {
       "titre":       "Verdict",
       "description": "Verdict est un jeu de débat web en HTML/CSS/JavaScript vanilla. L'IA assigne un sujet aléatoire et un camp (POUR ou CONTRE) à chaque joueur, qui dispose de 90 secondes pour rédiger sa plaidoirie. Les réponses sont scorées par l'API Claude et versées dans un classement communautaire.",
-      "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend"],
+      "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend", "(CLAUDE CODE)"],
       "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513681337914228929/verdict.png?ex=6a289d19&is=6a274b99&hm=e0514f7f21fe5479b88cced4fbb5bc72e1662789ade45df1e1e7faf8076eb02d&=&format=webp&quality=lossless&width=671&height=563",
       "lien":        "https://scorpion91600.github.io/Verdict"
     }
