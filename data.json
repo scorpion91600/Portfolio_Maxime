@@ -33,14 +33,7 @@
   ],
 
   "projets": [
-    {
-      "titre":       "Wevent",
-      "description": "Application fluide pour créer un évènement “Pop-up” pour un lancement de produit (marque de luxe)",
-      "tags":        ["Mobile Design", "UI-UX", "Librairie de composants", "Prototyping", "UX Patterns","Collaboration"],
-      "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513683240353927278/figma_maquette.png?ex=6a289edf&is=6a274d5f&hm=7c0592c3868c4ac43b9f757503a1d34ff257d3adad2bd6c6b3bcefb667570b12&=&format=webp&quality=lossless&width=1104&height=672",
-      "lien":        "https://www.figma.com/proto/Mg5Z5kotfZV9LUGKjhipZh/La-Toile-P2-UX-UI-Template--copie---copie-?node-id=5900-18706&t=ea63VIBiFpAp1RH5-1",
-      "Partenaire": ["Hulya, Abira"]
-    },
+    
     {
       "titre":       "Projet Discographie Maes",
       "description": "Site web dédié à la discographie du rappeur français Maes, conçu avec une esthétique glassmorphisme et une attention particulière portée à la lisibilité du texte. Le projet explore les fondamentaux du développement web front-end (HTML, CSS, JavaScript) à travers un cas concret et créatif.",
@@ -55,7 +48,23 @@
       "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend", "(CLAUDE CODE)"],
       "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513699449254187079/verdict.png?ex=6a28adf7&is=6a275c77&hm=d49bff1c51889f5c7937440025e6a634b5439963a3b613e713329a5ba5328901&=&format=webp&quality=lossless&width=1077&height=719",
       "lien":        "https://scorpion91600.github.io/Verdict",
-      "Partenaire": ["Hulya"]
+      "Partenaire": ["hulyazorluu-bit (Github)"]
+    },
+    {
+      "titre":       "L'Observatoire des Dérives Politiques",
+      "description": "L'Observatoire des Dérives Politiques est un outil conçu pour surveiller, analyser et documenter les publications des personnalités politiques françaises, avec un focus particulier sur les risques juridiques et les écarts par rapport aux valeurs républicaines.",
+      "tags":        ["Server", "API", "HTML", "CSS", "Python", "ClAUDE CODE", "X"],
+      "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513777339173965995/EDD39376-E06E-49A5-9C9E-B6760855DDEF.png?ex=6a28f682&is=6a27a502&hm=f447316fbb3c3bd6ce591c3811088619a5999c071167cc06df35389239d0747c&=&format=webp&quality=lossless&width=1320&height=563",
+      "lien":        "https://observatoire-politique.onrender.com/",
+      "Partenaire": [""]
+    },
+    {
+      "titre":       "Wevent",
+      "description": "Application fluide pour créer un évènement “Pop-up” pour un lancement de produit (marque de luxe)",
+      "tags":        ["Mobile Design", "UI-UX", "Librairie de composants", "Prototyping", "UX Patterns","Collaboration"],
+      "image":       "https://media.discordapp.net/attachments/1291922644580433940/1513683240353927278/figma_maquette.png?ex=6a289edf&is=6a274d5f&hm=7c0592c3868c4ac43b9f757503a1d34ff257d3adad2bd6c6b3bcefb667570b12&=&format=webp&quality=lossless&width=1104&height=672",
+      "lien":        "https://www.figma.com/proto/Mg5Z5kotfZV9LUGKjhipZh/La-Toile-P2-UX-UI-Template--copie---copie-?node-id=5900-18706&t=ea63VIBiFpAp1RH5-1",
+      "Partenaire": ["hulyazorluu-bit (Github), Abira"]
     }
   ],
 
