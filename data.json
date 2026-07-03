@@ -38,7 +38,7 @@
         "titre":       "Projet Discographie Maes",
         "description": "Site web dédié à la discographie du rappeur français Maes, conçu avec une esthétique glassmorphisme et une attention particulière portée à la lisibilité du texte. Le projet explore les fondamentaux du développement web front-end (HTML, CSS, JavaScript) à travers un cas concret et créatif.",
         "tags":        ["Glassmorphisme", "Html", "CSS", "Development", "Javascript", "Positionnement des éléments HTML"],
-        "image":       "https://cdn.discordapp.com/attachments/1291922644580433940/1513698188375363715/content.png?ex=6a2aa70b&is=6a29558b&hm=a827e5d6141e66c45f5bdfca1a1168fa5c24327047f1218572cf949308c0e242",
+        "image":       "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/f3/67/a1f367723107b4aff650e228e5a7a3040e1ca598.jpg?rule=ad-image",
         "lien":        "https://scorpion91600.github.io/maes_discovery",
         "Partenaire": [""]
       },
@@ -46,7 +46,7 @@
         "titre":       "Verdict",
         "description": "Verdict est un jeu de débat web en HTML/CSS/JavaScript vanilla. L'IA assigne un sujet aléatoire et un camp (POUR ou CONTRE) à chaque joueur, qui dispose de 90 secondes pour rédiger sa plaidoirie. Les réponses sont scorées par l'API Claude et versées dans un classement communautaire.",
         "tags":        ["Neo Brutalisme", "Web design", "Base de données (Supabase)", "Frontend", "(CLAUDE CODE)"],
-        "image":       "https://cdn.discordapp.com/attachments/1291922644580433940/1513699449254187079/verdict.png?ex=6a2aa837&is=6a2956b7&hm=2f3bd4403b9d614fc0f1326b5b2770f6c5bd118d1824369a2235c4821bb3dc57",
+        "image":       "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/f3/67/a1f367723107b4aff650e228e5a7a3040e1ca598.jpg?rule=ad-image",
         "lien":        "https://scorpion91600.github.io/Verdict",
         "Partenaire": ["hulyazorluu-bit (Github)"]
       },
@@ -54,9 +54,17 @@
         "titre":       "L'Observatoire des Dérives Politiques",
         "description": "L'Observatoire des Dérives Politiques est un outil conçu pour surveiller, analyser et documenter les publications des personnalités politiques françaises, avec un focus particulier sur les risques juridiques et les écarts par rapport aux valeurs républicaines.",
         "tags":        ["Server", "API", "HTML", "CSS", "Python", "ClAUDE CODE", "X"],
-        "image":       "https://cdn.discordapp.com/attachments/1291922644580433940/1513777339173965995/EDD39376-E06E-49A5-9C9E-B6760855DDEF.png?ex=6a2af0c2&is=6a299f42&hm=10362073920ee1f0add5bc575c0af44e0de257e9a7d34a64ffbd2174b1d30057",
+        "image":       "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/f3/67/a1f367723107b4aff650e228e5a7a3040e1ca598.jpg?rule=ad-image",
         "lien":        "https://observatoire-politique.onrender.com/",
         "Partenaire": [""]
+      },
+       {
+        "titre":       "HIMA",
+        "description": "HIMA compare les conditions de travail, le coût de la vie et les démarches pour vous aider à choisir votre destination d'expatriation",
+        "tags":        ["FIGMA","Web design", "HTML", "CSS", "Mobile Design", "UI-UX", "Librairie de composants", "Prototyping", "UX Patterns","Collaboration"],
+        "image":       "https://img.leboncoin.fr/api/v1/lbcpb1/images/a1/f3/67/a1f367723107b4aff650e228e5a7a3040e1ca598.jpg?rule=ad-image",
+        "lien":        "https://la-toile-paris.github.io/p3-groupe-4-1/",
+        "Partenaire": ["hulyazorluu-bit (Github), Abira"]
       },
       {
         "titre":       "Wevent (FIGMA)",
