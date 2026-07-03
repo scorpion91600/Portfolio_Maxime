@@ -10,12 +10,19 @@
 
  /* #ABC270, #FEC8668, #FDA769, #473C33 */
 :root {
-  /* Couleurs */
-  --bleu-fonce:  #ABC270;
-  --bleu-carte:  #FEC868;
-  --blanc:       #000000;
-  --noir:       #473C33;
-  --texte-pale:  rgba(0, 0, 0, 0.72);
+  --bleu-fonce:  #1E1E1E;      /* Fond principal */
+  --bleu-carte:  #007ACC;      /* Bleu VS Code */
+  --blanc:       #FFFFFF;      /* Texte blanc */
+  --noir:        #252526;      /* Cartes / sections */
+  --texte-pale:  #D4D4D4;      /* Texte principal */
+  --texte-gris:  #9DA5B4;      /* Texte secondaire */
+
+  /* Gradient (nav & footer) */
+  --gradient: linear-gradient(
+      135deg,
+      #007ACC,
+      #3794FF,
+      #4EC9B00, 0, 0.72);
   --texte-gris:  #000000;
 
    /* Couleurs */
@@ -255,7 +262,7 @@ main {
   align-items: center;
   border-radius: var(--radius-carte);
   padding: var(--padding-h);
-  background-color: #FEC868;
+  background-color: #007ACC;
   color: #111;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
 }
