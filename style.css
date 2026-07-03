@@ -9,7 +9,8 @@
 }
 
  /* #ABC270, #FEC8668, #FDA769, #473C33 */
-:root {
+ :root {
+
   --bleu-fonce:  #1E1E1E;      /* Fond principal */
   --bleu-carte:  #007ACC;      /* Bleu VS Code */
   --blanc:       #FFFFFF;      /* Texte blanc */
@@ -22,21 +23,10 @@
       135deg,
       #007ACC,
       #3794FF,
-      #4EC9B00, 0, 0.72);
-  --texte-gris:  #000000;
+      #4EC9B0
+  );
 
-   /* Couleurs */
-  /* --bleu-fonce:  #1A1878;
-  --bleu-carte:  #2E2DAE;
-  --blanc:       #ffffff;
-  --noir:       #000;
-  --texte-pale:  rgba(255, 255, 255, 0.72);
-  --texte-gris:  #555; */
-
-  /* Gradient (nav & footer) */
-  --gradient:    linear-gradient(to right, #FDA769, #FEC868);
-
-  /* Rayons */
+    /* Rayons */
   --radius-carte: 40px;
   --radius-nav:   20px;
   --radius-image: 30px;
@@ -60,7 +50,39 @@
   --fs-nav:  12px;
   --fs-xs:   11px;
   --ls-nav:  0.06em;
+
 }
+/* :root { */
+  /* Couleurs */
+
+/*   
+  --bleu-fonce:  #1E1E2E;
+  --bleu-carte:  #89B4FA;
+  --blanc:       #000000;
+  --noir:       #473C33;
+  --texte-pale:  #F8FAFC;
+  --texte-gris:  #000000; */
+
+    /* --bleu-fonce:  #ABC270;
+  --bleu-carte:  #FEC868;
+  --blanc:       #000000;
+  --noir:       #473C33;
+  --texte-pale:  rgba(0, 0, 0, 0.72);
+  --texte-gris:  #000000; */
+
+   /* Couleurs */
+  /* --bleu-fonce:  #1A1878;
+  --bleu-carte:  #2E2DAE;
+  --blanc:       #ffffff;
+  --noir:       #000;
+  --texte-pale:  rgba(255, 255, 255, 0.72);
+  --texte-gris:  #555; */
+
+  /* Gradient (nav & footer) */
+  /* --gradient:    linear-gradient(to right, #334155, #1E293B); */
+
+
+/* } */
 
 body {
   font-family: 'Montserrat', sans-serif;
